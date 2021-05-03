@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    
+</head>
+<body>
+    <div id="titulo">
+        <h1>Cadastro de DEVS</h1>
+    </div>
+    <div id="container">
+        <form>
+            <fieldset>
+                <div id="nome-sobrenome">
+                    <label>Nome</label>
+                    <input class="nome-sobrenome-email-input" id="nome-input" type="text" required>
+                </div>
+                <div id="nome-sobrenome">
+                    <label>Sobrenome</label>
+                    <input class="nome-sobrenome-email-input" id="sobrenome-input" type="text" required>
+                </div>
+            </fieldset>
+            <div id="email-container">
+                <label>Email</label>
+                <input class="nome-sobrenome-email-input" id="email-input" type="email" required>
+            </div>
+            <div id="check">
+                <label>Nível de senioridade:</label>
+                <label>Júnior</label>
+                <input type="radio" name="nivel" id="junior" checked>
+                <label>Pleno</label>
+                <input type="radio" name="nivel" id="pleno">
+                <label>Senior</label>
+                <input type="radio" name="nivel" id="senior">
+            </div>
+
+            <div id="radio">
+                <label>Área de atuação:</label>
+                <input type="radio" name="atuacao" id="front-end" checked>
+                <label>Front-End</label>
+                <input type="radio" name="atuacao" id="back-end">
+                <label>Back-End</label>
+                <input type="radio" name="atuacao" id="Full-Stack">
+                <label>Full-Stack</label>
+            </div>
+            <div id="texto">
+                <label>Conte um pouco sobre a sua experiência:</label>
+                <textarea placeholder="Digite aqui..." name="textarea" id="caixadetexto"  rows="12"></textarea>
+            </div>
+            <div id="botao-container">
+                <div id="botao">
+                    <button type="submit">Cadastrar</button>
+                </div>
+            </div>
+        </form>
+    </div>
+</body>
+</html>

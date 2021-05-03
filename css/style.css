@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color:  rgb(14, 115, 209);
+}
+
+#container{
+    width: 70%;
+    height: 500px;
+    margin-top: 20px;
+    margin-left: 15%;
+    background-color: #FFFFFF;
+    padding-top: 20px;
+    color: black;
+    border-radius: 8px;
+
+}
+
+#titulo{
+    margin-top: 20px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+fieldset{
+    border: 0;
+    margin-left: 5%;
+}
+
+input{
+    cursor: pointer;
+}
+
+#nome-sobrenome{
+  padding-top: 10px;
+}
+
+#nome-input{
+    width: 208px;
+}
+
+
+.nome-sobrenome-email-input{
+    cursor: text;
+    padding: 2px;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+#email-input{
+    width: 216px;
+}
+
+#email-container{
+    margin-left: 5%;
+    margin-top: 10px;
+}
+
+#check{
+    margin-top: 20px;
+    margin-left: 5%;
+}
+
+#radio{
+    margin-top: 20px;
+    margin-left: 5%;
+}
+
+#texto{
+    margin-top: 25px;
+    padding-left: 5%;
+}
+
+#caixadetexto{
+    padding: 5px;
+    outline: none;
+    resize: none;
+    margin-top: 10px;
+    width: 92%;
+}
+
+#botao-container{
+    display: flex;
+    justify-content: center;
+}
+
+button{
+    border: 0;
+    outline: none;
+    border-radius: 12px;
+    height: 40px;
+    width: 100px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: black;
+    color: white;
+    transition: 0.4s;
+    font-weight: bold;
+}
+
+/* Ajustes na responsividade */
+
+@media (max-width: 600px)
+{
+    button{
+        margin-top: 35px;
+        height: 30px;
+    }
+
+    #container{
+        border-radius: 0;
+        width: 100%;
+        margin-left: 0;
+        height: 540px;
+    }
+
+    #caixadetexto{
+        margin-top: 20px;
+    }
+}
